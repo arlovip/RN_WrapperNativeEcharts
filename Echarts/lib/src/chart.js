@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 import {
     View,
-    StyleSheet,
     Platform,
     Dimensions,
 } from 'react-native';
 import PropTypes from 'prop-types';
 import {WebView} from 'react-native-webview';
-import renderChart from "./renderChart";
-import iOSSourceUri from './tpl.html';
+import renderChart from "../utils/renderChart";
+import iOSSourceUri from '../file/tpl.html';
+import styles from "./styles";
 
+// contant configuration
 const {width} = Dimensions.get('window');
 const defaultHeight = 250;
 
-export default class Echarts extends Component {
+export default class chart extends Component {
 
     static propTypes = {
         option: PropTypes.object.isRequired,
@@ -78,12 +79,6 @@ export default class Echarts extends Component {
         </View>);
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flexDirection: 'row',
-    },
-});
 
 /**
  * 为什么要用这个WebView ？ 是因为原生的WebView即将在官方ReactNative中被移除

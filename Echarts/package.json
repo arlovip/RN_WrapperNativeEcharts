@@ -1,0 +1,19 @@
+{
+  "name": "@shufengdong/wanke-echarts",
+  "version": "1.0.2",
+  "description": "Echarts for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shufengdong/ems-app-components.git"
+  },
+  "author": "chenlong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shufengdong/ems-app-components/issues"
+  },
+  "homepage": "https://github.com/shufengdong/ems-app-components#readme"
+}
