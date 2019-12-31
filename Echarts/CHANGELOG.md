@@ -4,7 +4,7 @@
 
 ## 1.0.2（December 31, 2019）
 
-- 修复BUG: 修复`WKEchart`中的属性警告⚠️、`option`配置
+- 修复BUG: 修复警告⚠️、`option`配置
 - 更新`README.md`文档
 
 ## 1.0.1（December 31, 2019）

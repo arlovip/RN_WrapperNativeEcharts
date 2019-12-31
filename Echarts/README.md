@@ -27,7 +27,7 @@ npm install --save prop-types
 
 ```
 registry=https://npm.pkg.github.com/lchenfox
-//npm.pkg.github.com/:_authToken=c253d45271561b3a793c7be0a8a85f8a2035e757
+//npm.pkg.github.com/:_authToken=c253d45271561b3a793c7be0a8afaa234dsfa234adf234
 ```
 
 > 一般情况下，工程目录下会有这个文件，因此，在配置之前，请先查看一下是否已存在这个`.npmrc`文件，如果存在，并且已经有以上内容，那就忽略这个步骤。更重要的是，一个工程只要添加过一次就行了，一般情况下，后续安装其他`npm`依赖包，都不需要再配置。
@@ -134,7 +134,3 @@ const styles = StyleSheet.create({
     },
 });
 ```
-
-**效果图：**
-
-![screenshot.png](https://i.loli.net/2019/12/31/RayUufstiYlzKd3.png)
