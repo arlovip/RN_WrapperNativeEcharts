@@ -5,4 +5,4 @@
 `native-echarts` link on `github`: [native-echarts](https://github.com/somonus/react-native-echarts). Unfortunately, no one seems to maintain it now. 
 
 
-测试--： wanke@892a4debd3f7419acecebe94f84f5cd447e7d858
+测试--： 9fcb4e026483b6b2b00e@410706d205ed13ed986f
